@@ -1,0 +1,1 @@
+const palabras = ['manzana', 'plátano', 'naranja', 'limón', 'uva', 'kiwi', 'piña', 'mango', 'fresa', 'frambuesa', 'arándano', 'pera', 'melocotón', 'sandía', 'melón', 'maracuyá', 'guayaba', 'papaya', 'cereza', 'higo'];

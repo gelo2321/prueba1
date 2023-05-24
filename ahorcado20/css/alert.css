@@ -1,0 +1,27 @@
+.alert {
+    position: relative;
+    padding: 1rem 1rem 1rem 3.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+  }
+  
+  .btn-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #856404;
+    opacity: 0.5;
+  }
+  
+  .btn-close:hover {
+    color: #856404;
+    opacity: 1;
+  }
+  

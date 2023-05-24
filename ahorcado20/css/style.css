@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+  background: url();
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  height: 50px;
+  margin: 0;
+}
+
+/* Estilos para el contenedor principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+/* Estilos para la imagen */
+#imagen {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la palabra a adivinar */
+#palabra_a_adivinar {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#palabra_a_adivinar span {
+  margin-right: 5px;
+  vertical-align: bottom;
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Estilos para el botón de iniciar */
+#iniciar {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Estilos para el resultado */
+#resultado {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las letras */
+#letras {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+#letras button {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#letras button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
